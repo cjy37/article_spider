@@ -35,7 +35,7 @@ HTML预览：
 使用场景：适合配置定时抓取任务，来获取大量数据。
 
 ```
-node out/index.js --WECHAT_NAME=wow36kr --WECHAT_BIZ=MjM5NjI5Mjc2MA== --RUOKUAI_USERNAME=test --RUOKUAI_PASSWORD=test
+node out/index.js --wechat_name wow36kr --wechat_biz mzi2ndk5nza0mw== --ruokuai_username test --ruokuai_password test
 ```
 
 #### 2.Ajax请求

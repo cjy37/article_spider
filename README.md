@@ -53,7 +53,7 @@ NodeJS & NPM, Chrome浏览器, 微信桌面客户端(Mac 或者 Windows都可)
 
 #### 初始化环境和编译
 
-    git clone git@github.com:f111fei/article_spider.git
+    git clone https://github.com/f111fei/article_spider.git
     cd article_spider
     npm install typescript -g
     npm install

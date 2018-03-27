@@ -1,15 +1,15 @@
 {
-    "name": "nasawatch",
+    "name": "wow36kr",
     "ruokuai": {
-        "username": "test",
-        "password": "test"
+        "username": "joinin",
+        "password": "Ht141421"
     },
     "wechat": {
         "mode": "all",
         "start": 0,
         "maxNum": 10,
-        "biz": "MjM5NjI5Mjc2MA==",
-        "appmsg_token": "938_lBqvZ7PHdVvJ6XHKvNvao0mUMwusH1hpY5VhNg~~",
-        "cookie": "RK=oc16c6jOay; pac_uid=1_844456063; eas_sid=e155V0f395Y3I8G4m0f5n7d8U5; pgv_pvi=6712883200; tvfe_boss_uuid=b47dd1d28e0c3998; o_cookie=844456063; gaduid=59e45ab1adc55; pgv_pvid=6417409870; ua_id=OXJfKwg9V6frZKR9AAAAALymQMkENA3wXr4gU9Ac6hU=; mm_lang=en_US; _qpsvr_localtk=0.051239900422683116; pgv_si=s9197009920; ptisp=cnc; ptcz=0ec24ee12f8ec98c07df1832ea16d0660641d370fa98fc680a3c645b84eed1db; uin=o0844456063; skey=@GfQ4G1QR6; pt2gguin=o0844456063; wxtokenkey=35cb0b9fd3435b251138e65ac03fe6ea48cbf2d5cb3fdbd745bd580b9e1b98b0; rewardsn=1f0ceb18255e2be7f240; wxuin=991798244; devicetype=Windows10; version=62060028; lang=zh_CN; pass_ticket=AQA+sr3Hxo0rHHfzIaC3sRbBGAX9AWkTh88cwLO0DPtBnHbPSzmWArh2VNbGN1nr; wap_sid2=COTH9tgDElxacWFFUWRuTHBwSXVZNjBpdjU2T2ZBbVQ1NHhwQVhUb3pjVG1tZ3JsSDVubk9Xczk1V0hoOWYzV3JyeW5ZU0hLbEExSWc2XzBfUXNadUZ0cDJlY05RNm9EQUFBfjCW1bzSBTgNQJVO"
+        "biz": "MzI2NDk5NzA0Mw==",
+        "appmsg_token": "949_eIrPS1s4fri%2Bif3ZwJZltzc7VLncYdeDwP1wVw~~",
+        "cookie": "pgv_pvi=1828601856; RK=bFVTVjqbEh; o_cookie=75264521; pac_uid=0_6f1cb4b0831e5; ptcz=88391e5362b12a394effb611116894f7f0d125cc7e806c0c3e941d329871a1c4; pgv_pvid=7388337292; ua_id=TOY0tyf8L8dRNjhvAAAAAEPCxAlhMtfpplIsRlDIoa8=; mm_lang=zh_CN; ptui_loginuin=582677550; pt2gguin=o0582677550; noticeLoginFlag=1; remember_acct=1730864463%40qq.com; xid=a6a041d4aff1365218cb45a085888707; openid2ticket_o_yH91A3pQd43p_dbqRJAatUTKBQ=bUXi7sNBWU0rZXAK+agH2KapZ5EByP/e7b39aJijbxg=; rewardsn=; wxtokenkey=777; sig=h01b81882b7d8e86a7696becbca551b7fe92bc42ed7b239185d9cf90cff7ffbfbd2c50fbba5ac818a13; wxuin=2595182440; devicetype=Windows10; version=6206021b; lang=zh_CN; pass_ticket=EUOAO42lRjdNr24S1qyFafasUcuQ8smHeRKDzlfWJ2piF1FOhNIzE1CF+IyzuuAk; wap_sid2=COiuvdUJElw5VzkzdzNJUzYtTjRHMHZPSWlPaWcway1KREVpQTdIcVc1aWVqR3c4SmllRkRaSVctTS10a0dEWDZEeElqd0tqM0tkN2dfOHpQMkNCRG50Vmg2b3pSTFVEQUFBfjCq3+bVBTgNQJVO"
     }
 }

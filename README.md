@@ -34,6 +34,10 @@ HTML预览：
 
 使用场景：适合配置定时抓取任务，来获取大量数据。
 
+```
+node out/index.js --WECHAT_NAME=wow36kr --WECHAT_BIZ=MjM5NjI5Mjc2MA== --RUOKUAI_USERNAME=test --RUOKUAI_PASSWORD=test
+```
+
 #### 2.Ajax请求
 
 截获微信公众号文章列表的Ajax请求参数，模拟微信客户端读取文章列表和文章信息。

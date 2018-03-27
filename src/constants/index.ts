@@ -11,7 +11,13 @@ interface Config {
     wechat: WechatParseOptions;
 }
 
-export const config: Config = fs.readJSONSync(path.join(__dirname, '../../config.json'), { encoding: 'utf8' });
+let _config: Config = fs.readJSONSync(path.join(__dirname, '../../config.json'), { encoding: 'utf8' })
+_config.name = process.env.WECHAT_NAME || _config.name;
+_config.wechat.biz = process.env.WECHAT_BIZ || _config.wechat.biz;
+_config.ruokuai.username =  process.env.RUOKUAI_USERNAME || _config.ruokuai.username;
+_config.ruokuai.password =  process.env.RUOKUAI_PASSWORD || _config.ruokuai.password;
+
+export const config: Config = _config;
 export const wechat = {
     domain: 'https://mp.weixin.qq.com',
     path: '/mp/profile_ext',
@@ -41,6 +47,8 @@ export const wechat = {
         'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1'
     }
 };
+
+
 
 export const dbPath = path.join(__dirname, '../../db');
 fs.mkdirpSync(dbPath);

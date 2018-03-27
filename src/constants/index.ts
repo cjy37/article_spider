@@ -17,6 +17,10 @@ _config.wechat.biz = process.env.WECHAT_BIZ || _config.wechat.biz;
 _config.ruokuai.username =  process.env.RUOKUAI_USERNAME || _config.ruokuai.username;
 _config.ruokuai.password =  process.env.RUOKUAI_PASSWORD || _config.ruokuai.password;
 
+if (process.env.WECHAT_NAME && process.env.WECHAT_BIZ){
+    _config.wechat.mode = 'sougou';
+}
+
 export const config: Config = _config;
 export const wechat = {
     domain: 'https://mp.weixin.qq.com',
